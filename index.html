@@ -161,17 +161,17 @@
         <div class="container text-center my-4 text-white bg-black pt-3 pb-4 px-4">
           <h4 class="mb-3 text-decoration-underline">Budget</h4>
           <label for="price">Per Player</label>
-          <input type="number" min="100000" placeholder="100000" class="ms-3 w-50 bg-black text-white border-white border-1 fw-bold">
-          <button class="btn btn-primary btn-md w-50 my-3">Calculate</button>
-          <p>Player Expense  $<span>0000</span></p>
+          <input type="number" min="100000" placeholder="100000" class="ms-3 w-50 bg-black text-white border-white border-1 fw-bold" id="player-price">
+          <button class="btn btn-primary btn-md w-50 my-3" id="player-price-cal">Calculate</button>
+          <p>Player Expense  $<span id="player-expense">0000</span></p>
           <label for="price" class="my-4">Manager</label>
-          <input type="number" min="20000" placeholder="20000" class="ms-3 w-50 bg-black text-white border-white border-1 fw-bold">
+          <input type="number" min="20000" placeholder="20000" class="ms-3 w-50 bg-black text-white border-white border-1 fw-bold" id="manager-price">
           <label for="price">Coach</label>
-          <input type="number" min="20000" placeholder="20000" class="ms-4 w-50 bg-black text-white border-white border-1 fw-bold">
-          <button class="btn btn-primary btn-md  my-3">Calculate Total</button>
+          <input type="number" min="20000" placeholder="20000" class="ms-4 w-50 bg-black text-white border-white border-1 fw-bold" id="coach-price">
+          <button class="btn btn-primary btn-md  my-3" id="total-cal">Calculate Total</button>
           <div class="d-flex justify-content-between">
             <p>Total</p>
-            <p class="text-danger fw-bold">$<span>0000</span></p>
+            <p class="text-danger fw-bold">$<span id="total-price">0000</span></p>
           </div>
         </div>
       </aside>
@@ -183,6 +183,7 @@
     <p class="text-center text-white">Copyright @ 2022 All Rights Reserved.</p>
   </footer>
   <script src="player.js"></script>
+  <script src="price.js"></script>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
