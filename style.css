@@ -6,7 +6,11 @@ body{
     padding-top: 150px;
 }
 
+.football{
+   right: -100%;
+    
 
+}
 
 .h1-header{
     font-family: 'Berkshire Swash', sans-serif;
@@ -20,4 +24,16 @@ body{
     font-size: 1em;
     color: white;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 400px) {
+    .football{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+    .football{
+        display: none;
+    }
 }
