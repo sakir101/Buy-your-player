@@ -1,0 +1,19 @@
+.header-des{
+    padding-top: 150px;
+}
+
+
+
+.h1-header{
+    font-family: 'Berkshire Swash', sans-serif;
+    font-size: 3.5rem;   
+    color: red;   
+    text-decoration: underline; 
+    margin-bottom: 10px;                                    
+}
+
+.p-header{
+    font-size: 1em;
+    color: white;
+    margin-bottom: 50px;
+}
