@@ -24,7 +24,7 @@
         <img src="image/head-player.png" class="img-fluid img-head" alt="">
       </div>
       <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 col-sm-12 order-sm-1 col-12 order-1 text-center">
-        <h1 class="h1-header">Select Top Most Player</h1>
+        <h1 class="h1-header">Select Top Most Players</h1>
         <p class="p-header">Here you can select your best five players for your team. We have world famomous footballer who will make you
           win at any match. Our side wil favour you to choose player and you can buy them from our site. You will find all of the world famous players whom are unique.</p>
       </div>
@@ -35,10 +35,10 @@
 
   <main class="container my-5">
     <section class="row">
-      <aside class="col-8">
+      <aside class="col-lg-9 col-md-7 col-sm-6 col-6">
         <div class="row g-3">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-1.png" class="img-fluid w-100" alt="">
               </div>
@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-2.png" class="img-fluid w-100" alt="">
               </div>
@@ -62,7 +62,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-3.png" class="img-fluid w-100" alt="">
               </div>
@@ -74,7 +74,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-4.png" class="img-fluid w-100" alt="">
               </div>
@@ -86,7 +86,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-5.png" class="img-fluid w-100" alt="">
               </div>
@@ -98,7 +98,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-6.png" class="img-fluid w-100" alt="">
               </div>
@@ -110,7 +110,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-7.png" class="img-fluid w-100" alt="">
               </div>
@@ -122,7 +122,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-8.png" class="img-fluid w-100" alt="">
               </div>
@@ -134,7 +134,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-            <div class="card text-center">
+            <div class="card text-center border-0">
               <div class="bg-card">
                 <img src="image/p-10.png" class="img-fluid w-100" alt="">
               </div>
@@ -147,12 +147,45 @@
           </div>
         </div>
       </aside>
-      <aside class="col-4">
+      <aside class="col-lg-3 col-md-5 col-sm-6 col-6">
+        <div class="text-center text-white bg-black pt-3 pb-4">
+          <h4 class="mb-3 text-decoration-underline">Select Five</h4>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <ol class="lead">
+              <li class="my-2">Player one</li>
+              <li class="my-2">Player two</li>
+              <li class="my-2">Player three</li>
+              <li class="my-2">Player four</li>
+              <li class="my-2">Player five</li>
+            </ol>
+          </div>
+         
+        </div>
 
+        <div class="container text-center my-4 text-white bg-black pt-3 pb-4 px-4">
+          <h4 class="mb-3 text-decoration-underline">Budget</h4>
+          <label for="price">Per Player</label>
+          <input type="number" min="100000" placeholder="100000" class="ms-3 w-50 bg-black text-white border-white border-1 fw-bold">
+          <button class="btn btn-primary btn-md w-50 my-3">Calculate</button>
+          <p>Player Expense  $<span>0000</span></p>
+          <label for="price" class="my-4">Manager</label>
+          <input type="number" min="20000" placeholder="20000" class="ms-3 w-50 bg-black text-white border-white border-1 fw-bold">
+          <label for="price">Coach</label>
+          <input type="number" min="20000" placeholder="20000" class="ms-4 w-50 bg-black text-white border-white border-1 fw-bold">
+          <button class="btn btn-primary btn-md  my-3">Calculate Total</button>
+          <div class="d-flex justify-content-between">
+            <p>Total</p>
+            <p class="text-danger fw-bold">$<span>0000</span></p>
+          </div>
+        </div>
       </aside>
     </section>
   </main>
 
+  <footer >
+    <hr class="border-3 border-white">
+    <p class="text-center text-white">Copyright @ 2022 All Rights Reserved.</p>
+  </footer>
   <script src="player.js"></script>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
