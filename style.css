@@ -1,39 +1,39 @@
-body{
+body {
     background-color: #1c1414f8;
 }
 
-.header-des{
+.header-des {
     padding-top: 150px;
 }
 
-.football{
-   right: -103%;
-    
+.football {
+    right: -103%;
+
 
 }
 
-.h1-header{
+.h1-header {
     font-family: 'Shrikhand', cursive;
-    font-size: 3.5rem;   
-    color: red;   
-    text-decoration: underline; 
-    margin-bottom: 10px;                                    
+    font-size: 3.5rem;
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
-.p-header{
+.p-header {
     font-size: 1em;
     color: white;
     margin-bottom: 50px;
 }
 
 @media screen and (max-width: 400px) {
-    .football{
+    .football {
         display: none;
     }
 }
 
 @media screen and (min-width: 401px) and (max-width: 800px) {
-    .football{
+    .football {
         display: none;
     }
 }
