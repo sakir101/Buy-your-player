@@ -8,12 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="shortcut icon" href="image/head-player.png" type="image/x-icon">
-                
+
 
   <!-- Bootstrap CSS v5.2.0-beta1 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="http://fonts.cdnfonts.com/css/berkshire-swash" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,16 +26,19 @@
       <div class=" col-lg-4 order-lg-1 col-md-12 order-md-2 col-sm-12 order-sm-2 col-12 order-2">
         <img src="image/head-player.png" class="img-fluid img-head " alt="">
       </div>
-      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 col-sm-12 order-sm-1 col-12 order-1 text-center text-sm-center text-md-center">
+      <div
+        class="col-lg-6 order-lg-1 col-md-12 order-md-1 col-sm-12 order-sm-1 col-12 order-1 text-center text-sm-center text-md-center">
         <h1 class="h1-header">Select Top Most Players</h1>
-        <p class="p-header">Here you can select your best five players for your team. We have world famomous footballer who will make you
-          win at any match. Our side wil favour you to choose player and you can buy them from our site. You will find all of the world famous players whom are unique.</p>
+        <p class="p-header">Here you can select your best five players for your team. We have world famomous footballer
+          who will make you
+          win at any match. Our side wil favour you to choose player and you can buy them from our site. You will find
+          all of the world famous players whom are unique.</p>
       </div>
       <div class="col-lg-2 order-lg-3 col-md-4 order-md-3 col-sm-4 order-sm-3 col-4 order-3 position-relative">
         <img src="image/football.png" class="img-fluid position-absolute bottom-0 football" alt="">
       </div>
     </div>
-   
+
   </header>
 
   <main class="container  my-5 ">
@@ -155,25 +160,29 @@
           <h4 class="mb-3 text-decoration-underline">Select Five</h4>
           <div class="d-flex flex-column justify-content-center align-items-center">
             <ol class="lead" id="player-list">
-              
+
             </ol>
           </div>
-         
+
         </div>
 
         <div class="container text-center my-4 text-white bg-black pt-3 pb-4 ">
           <h4 class="mb-3 text-decoration-underline">Budget</h4>
           <label for="price">Per Player</label>
-          <input type="number" min="100000" placeholder="100000" class="ms-lg-4 ms-md-4 ms-sm-0 w-50 bg-black text-white border-white border-1 fw-bold" id="player-price">
+          <input type="number" min="100000" placeholder="100000"
+            class="ms-lg-4 ms-md-4 ms-sm-0 w-50 bg-black text-white border-white border-1 fw-bold" id="player-price">
           <br>
           <button class="btn btn-primary   my-3" id="player-price-cal">Calculate</button>
           <br>
-          <p>Player Expense  $<span id="player-expense">0000</span></p>
+          <p>Player Expense $<span id="player-expense">0000</span></p>
           <label for="price" class="my-4">Manager</label>
-          <input type="number" min="20000" placeholder="20000" class="ms-lg-4 ms-md-4 ms-sm-0 my-3 w-50 bg-black text-white border-white border-1 fw-bold" id="manager-price">
+          <input type="number" min="20000" placeholder="20000"
+            class="ms-lg-4 ms-md-4 ms-sm-0 my-3 w-50 bg-black text-white border-white border-1 fw-bold"
+            id="manager-price">
           <br>
           <label for="price">Coach</label>
-          <input type="number" min="20000" placeholder="20000" class="ms-lg-4 ms-md-4 ms-sm-0 w-50 bg-black text-white border-white border-1 fw-bold" id="coach-price">
+          <input type="number" min="20000" placeholder="20000"
+            class="ms-lg-4 ms-md-4 ms-sm-0 w-50 bg-black text-white border-white border-1 fw-bold" id="coach-price">
           <br>
           <button class="btn btn-primary btn-md  my-3" id="total-cal">Calculate Total</button>
           <div class="d-flex justify-content-between">
@@ -185,7 +194,7 @@
     </section>
   </main>
 
-  <footer >
+  <footer>
     <hr class="border-3 border-white">
     <p class="text-center text-white">Copyright @ 2022 All Rights Reserved.</p>
   </footer>
