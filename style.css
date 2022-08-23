@@ -7,7 +7,7 @@ body {
 }
 
 .football {
-    right: -103%;
+    right: -45%;
 
 
 }
@@ -32,7 +32,7 @@ body {
     }
 }
 
-@media screen and (min-width: 401px) and (max-width: 800px) {
+@media screen and (min-width: 401px) and (max-width: 920px) {
     .football {
         display: none;
     }
